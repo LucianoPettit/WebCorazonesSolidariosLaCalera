@@ -1,0 +1,1504 @@
+/* generales */
+
+/* imports */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,400;0,700;1,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;500;700;900&display=swap');
+
+/* fin de imports */
+
+/* reset de pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+  }
+/* fin de reset */
+
+
+/* root (paleta de colores)*/
+:root {
+
+    --blanco:white;
+    --negro: black;
+    --primario: #e55224;
+    --secundario: #d86542;
+    --terciario:#24262b;
+  }
+/* fin del root (paleta de colores)*/
+
+
+/* body/html */
+html,
+body {
+  background: white;
+}
+/* fin del body/html */
+
+
+
+
+/* top header (appalert) */
+
+.appAlert {
+    background-color:var(--primario) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 14px;
+}
+
+.appAlertContainer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+
+.infoText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 0px 15px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 500;
+    color: white;
+}
+
+.infoText p{
+    margin: 0px 5px;
+}
+/* fin del top header  */
+
+
+/* header */
+/* logo - texto al lado del logo- */
+.appHeader {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.headerContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+    max-width: 1700px;
+}
+.headerLogoTitle {
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+    text-align: start;
+    gap: 20px;
+}
+.headerLogoTitle a .appHeaderImg {
+    height: 80px;
+    width: auto;
+    justify-content: flex-start;
+    
+}
+
+.headerTitle {
+    font-size: 17px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.headerTitle h1{
+    font-size: 18px;
+          width: 100%;
+          justify-content:flex-start ;
+          align-items: center;
+          text-align: start;
+}
+.headerTitle h2{
+    font-size: 16px;
+          width: 100%;
+}
+
+/* fin logo - texto al lado del logo- */
+
+/* nav */
+.bg-light{
+    background-color: white !important; 
+    z-index: 10;
+            margin-right: 10px;
+}  
+
+.container-fluid{
+    background-color: white;
+    border-radius: 23px;
+}
+
+.nav-item{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-link{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: var(--secundario);  
+}
+/* fin del nav */
+/* fin del header */
+
+
+
+/* main */
+
+/* index */
+.appMain {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.appContent {
+    width: 100%;
+    max-width: 1920px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.appHero {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.appTitleContainer {
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.692),
+        rgba(0, 0, 0, 0.733)),
+    url(../img/fondohero3.png);
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;    
+    gap:50px;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.titleContainer{
+    font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-size: 35px;
+        
+} 
+
+.appHeroContent {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 20px;
+    
+
+
+}
+
+.appHeroContent  .subTitleContainer{
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
+}
+
+.heroContentParaph {
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: "Roboto Slab", serif;
+    gap: 10px;
+    
+        
+}
+
+.cuadradoNaranja{
+    line-height: 1.6;
+    overflow: hidden;
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+    color: white;
+    line-height: 1em;
+    width: 100%;
+    max-width: 40%; 
+    background-color: #f05a29;
+    border: 2px solid black;
+    padding-top: 20px ;
+    padding-bottom: 10px ;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+.cuadradoNaranja p{
+    line-height: 1.5;
+}
+
+.appText {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.heroContentLema {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Barlow", sans-serif;
+    margin-top: 20px;
+}
+
+.heroContentBtn  button {
+    background-color: #d86542;
+            padding: 10px;
+            border: 2px solid white;
+            margin-top: 10px;
+            border-radius: 15%;
+            font-size: 19px;
+            color: black;
+            width: 100px;
+            height: 50px;
+}
+
+.heroContentBtn  button:hover{
+    color: black;
+    width: 150px;
+    transition-property: width;
+    transition-duration: 1.5s;
+    transition-timing-function: linear;
+} 
+
+/* galeria - index */
+.carouselGallery {
+    width: 50%;
+    height: auto;
+    margin-top: 30px;
+}
+.carousel-item   img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* fin del galeria - index */
+
+/* formulario voluntario-index */
+.formVoluntario {
+    max-width: 1920px;
+    width: 100%;
+    font-family: "Roboto Slab", serif;
+}
+
+form{
+    width: 450px;
+        margin: auto;
+        background-color: white;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+}
+form h2{
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 20px;
+}
+form input{
+    width: 100%;
+            margin-bottom: 20px;
+            padding: 7px;
+            box-sizing: border-box;
+            font-size: 17px;
+            border: 1px solid black;
+}
+
+form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    min-height: 100px;
+    max-height: 200px;
+    border: 1px solid black;
+}
+
+form .boton{
+    background-color: white;
+    padding: 20px;
+}
+
+form .boton:hover{
+    background-color: #d86542;
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+/* fin del  formulario voluntario-index */
+
+.requisitos {
+    color: black;
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 22px;
+  }
+/* requisitos -index */
+
+/* entidades -index */
+.tituloGaleria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 30px;
+    font-size: x-large;
+    font-size: 15px;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+
+.gridContainerGaleria{
+    display: grid;
+    margin: 10px;
+    grid-template-columns: repeat(4fr);
+    grid-template-rows: 300px;
+    gap: 15px;
+    place-content: center;
+}
+
+.galeriaImg {
+    width: 250px;
+    height: 250px;
+    transition: 1s;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.galeriaImg:hover{
+    transform: scale(1.1);
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2s);
+}
+
+/*OPINIONES CARRUSEL*/
+.containerCarruselOpiniones {
+    width: 70%;
+    max-width: 1170px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.containerCarruselOpiniones h2{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+    position: relative;
+    margin: 30px 0 60px;
+}
+.containerCarruselOpiniones h2::after{
+    width: 140px;
+    position: absolute;
+    margin: 0 auto;
+    height: 3px;
+    background: #db584e;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+    opacity: 0.8;
+}
+.col-center {
+    margin: 0 auto;
+    float: none !important;
+}
+
+
+.carousel {
+    margin: 50px auto;
+    padding: 0 70px; 
+}
+
+.carousel .testimonial{
+    padding: 30px 0 10px;
+      color: black;
+}
+
+
+.overview{
+    font-style: italic;
+}
+
+.overview b{
+    text-transform: uppercase;
+        color: #db584e;
+}
+
+.carousel-control {
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+    background: none;
+}
+.carousel-control  i {
+    font-size: 68px;
+    line-height: 42px;
+    position: absolute;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel-indicators {
+    bottom: -40px;
+}
+
+.carousel-indicators li{
+    background: #999;
+    border-color: transparent;
+    box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.carousel-indicators li:active{
+    width: 10px;
+    height: 10px;
+    margin: 1px 3px;
+    border-radius: 50%;
+    background: #555;
+    box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.carousel-item {
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    min-height: 290px;
+}
+
+
+.img-box {
+    width: 135px;
+    height: 135px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+  }
+
+/* Fin de OPINIONES CARRUSEL*/
+
+/* fixed logo wp */
+.fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    width: 10px;
+    height: auto;
+}
+
+.fixed img{
+    width: 40px;
+    height: auto;
+}
+
+/* fin del fixed logo wp */
+
+
+/* fin de  entidades -index */
+
+/*fin de  requisitos -index */
+
+/* fin del index */
+
+/* nosotros */
+/* fin del nosotros */
+
+/* proyectos */
+/* fin de proyectos */
+
+/* contacto */
+/* fin de contacto */
+
+/* donar  */
+/* fin de donar */
+
+
+/* fin del main */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media querys */
+@media (max-width: 1930px) {
+
+    .nosotrosContenedor .noticia{
+      width: 50%;
+    }
+    .nosotrosContenedor .noticia .izquierda{
+      width: 80%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-left: 19px;
+    }
+    .formAndReq {
+      margin-top: 80px;
+      width: 500px;
+      height: 700px;
+    }
+    .requirementsList > ul > li {
+      font-size: 28px;
+    }
+    .tituloGaleria {
+      font-size: 28px;
+    }
+    .containerCarruselOpiniones {
+      width: 90%;
+    }
+    .carouselGallery {
+      width: 100%;
+    }
+  
+    .nosotrosMobile .nosotrosImg3 {
+      width: 850px;
+      margin-top: 4px;
+      height: auto;
+      margin-top: 5px;
+    }
+  
+    .footer .containerFooter {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 1370px) {
+    .nosotrosContenedor .noticia{
+      width: 70%;
+    }
+    .nosotrosContenedor .noticia .izquierda{
+      width: 80%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-left: 19px;
+    }
+    .tituloGaleria div .gridContainerGaleria {
+      grid-template-columns: repeat(2, 300px);
+      grid-template-rows: 400px;
+      place-content: center;
+    }
+    .cardContainer {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .mapsContainer > h2 {
+      font-size: 18px;
+    }
+    .mapsContainer > p {
+      font-size: 15px;
+    }
+    .nosotrosMobile .nosotrosImg3 > img {
+      width: 450px;
+      margin-top: 4px;
+      height: auto;
+      margin-top: 5px;
+    }
+  
+    .contactoMain .contactoContainer .contactoMaps .mapsContainer .mapa iframe {
+      width: 800px;
+      height: 600px;
+    }
+    .proyectosMain .proyectosContent .card .cardContainer {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .contactoMain
+      .contactoContainer
+      .redesContacto
+      .redesContactoContainer
+      .redesLinkImg
+      a
+      .redesLinkImgFace {
+      width: 300px;
+      height: 300px;
+    }
+    .contactoMain
+      .contactoContainer
+      .redesContacto
+      .redesContactoContainer
+      .redesLinkImg
+      a
+      .redesLinkImgInsta {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  
+  @media (max-width: 1230px) {
+    .contactoMain
+      .contactoContainer
+      .redesContacto
+      .redesLinkImgContainer
+      a
+      .redesLinkImgInsta {
+      width: 300px;
+      height: 300px;
+      
+    }
+  
+    .contactoMain
+      .contactoContainer
+      .redesContacto
+      .redesLinkImgContainer
+      a
+      .redesLinkImgFace {
+      width: 300px;
+      height: 300px;
+    }
+    .appMain .appContent .appHero .carouselGallery {
+      width: 700px;
+    }
+    .containerCarruselOpiniones {
+      width: 700px;
+    }
+  
+    .appMain .appContent .appHero .formularioVoluntario .formularioContainer {
+      width: 100%;
+      height: auto;
+    }
+  
+    .appTitleContainer > h1 {
+      font-size: 22px;
+    }
+  
+    .appHeroContent > h2 {
+      font-size: 19px;
+    }
+  
+    .heroContentParaph2 {
+      font-size: 14px;
+    }
+  
+    .heroContentLema {
+      font-size: 22px;
+    }
+    .appTitleContainer {
+      height: 500px;
+    }
+  
+    .contactoMain {
+      width: 100%;
+      display: flex;
+    }
+  
+    .footer .containerFooter {
+      width: 80%;
+    }
+  
+    .contactoMain .contactoContainer .contactoMaps {
+      width: 100%;
+    }
+  
+    .contactoMain .contactoContainer div .paraph {
+      width: 100%;
+      font-size: 15px;
+    }
+  
+    .sectionsFooterContacto {
+      width: 80%;
+      padding: 0 15px;
+    }
+  
+    .footer .containerFooter {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 850px) {
+    .proyectosMain .proyectosContent .card .cardContainer .cardContainerImg img {
+      flex: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .appMain .appContent .appHero .appHeroContent .heroContentParaph {
+      display: none;
+    }
+  
+    .proyectosMain .proyectosContent .card .cardContainer .cardContainerImg img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+    }
+    .contactoMain .contactoContainer .cardContainer {
+      width: 100%;
+    }
+    .footer {
+      width: 100%;
+    }
+  
+    .proyectosMain .proyectosContent .card .cardContainer .cardContainerImg img {
+      align-items: center;
+      justify-content: center;
+    }
+    .footer .containerFooter {
+      max-width: 700px;
+    }
+  
+    .appMain .appContent .appHero .carouselGallery {
+      width: 600px;
+      height: auto;
+    }
+    .appMain .appContent .appHero .formularioVoluntario .formularioContainer {
+      width: 600px;
+      height: auto;
+    }
+  
+    .tituloGaleria div .gridContainerGaleria{
+      grid-template-columns: repeat(1, 300px);
+      grid-template-rows: 400px;
+      gap: 5px;
+      place-content: center;
+    }
+  
+    .appTitleContainer > h1 {
+      font-size: 22px;
+    }
+  
+    .appHeroContent > h2 {
+      font-size: 19px;
+    }
+  
+    .heroContentParaph2 {
+      font-size: 10px;
+    }
+  
+    .heroContentLema {
+      font-size: 14px;
+    }
+  
+    .sumateTitle > h2 {
+      font-size: 22px;
+    }
+  
+    .sumateTitle > p {
+      font-size: 16px;
+    }
+    .requirementsTitle > h2 {
+      font-size: 25px;
+    }
+  
+    .requirementsList > ul {
+      font-size: 16px;
+    }
+  
+    .tituloGaleria > h2 {
+      font-size: 25px;
+    }
+  
+    .tituloGaleria div .gridContainerGaleria{
+      grid-template-columns: repeat(1, 300px);
+      grid-template-rows: 400px;
+      gap: 5px;
+      place-content: center;
+    }
+  
+    .sectionsFooter {
+      width: 100%;
+    }
+    .contactoMain .contactoContainer .contactoMaps .mapsContainer p {
+      font-size: 13px;
+    }
+    .footer .containerFooter .row .sectionsFooter:nth-child(2) {
+      display: none;
+    }
+    .appAlert .appAlertContainer .infoText:nth-child(2) {
+      display: none;
+    }
+    .nosotrosImg3 > img {
+      width: 250px;
+      margin-top: 4px;
+      height: auto;
+      margin-top: 5px;
+    }
+    .proyectosMain .proyectosContent .card .cardContainer .cardContainerImg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .contactoMain
+      .contactoContainer
+      .redesContacto
+      .redesLinkImgContainer
+      a
+      .redesLinkImgFace {
+      width: 350px;
+      height: auto;
+    }
+    .contactoMain
+      .contactoContainer
+      .redesContacto
+      .redesLinkImgContainer
+      a
+      .redesLinkImgInsta {
+      width: 350px;
+      height: auto;
+    }
+    .contactoMain .contactoContainer .contactoMaps .mapsContainer .mapa iframe{
+      width: 600px;
+      height: 400px;
+    }
+    .contactoMain .contactoContainer .redesContacto .redesContactoContainer{
+      width: auto;
+    }
+  }
+  
+  @media (max-width: 750px) {
+    .nosotrosContenedor .noticia{
+      width: 90%;
+    }
+    .nosotrosContenedor .noticia .izquierda{
+      width: 80%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-left: 15px;
+    }
+    .footer .containerFooter {
+      width: 100%;
+    }
+    .footer .containerFooter .row {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .footer .containerFooter .row .sectionsFooter {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .row {
+      font-size: 19px;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .containerCarruselOpiniones {
+      width: 100%;
+    }
+    .footer .containerFooter .row .sectionsFooter {
+      width: 50%;
+      padding: 0 15px;
+      margin-left: 30px;
+    }
+  
+    .nosotrosImg > img {
+      width: 350px;
+      height: auto;
+    }
+  
+    .nosotrosImg2 > img {
+      width: 350px;
+      height: auto;
+    }
+    .nosotrosImg3 > img {
+      width: 350px;
+      height: auto;
+    }
+  
+    .nosotrosContainer {
+      width: 90%;
+    }
+  
+    .contactoMain .contactoContainer .contactoMaps .mapsContainer .mapa iframe {
+      width: 300px;
+      height: 300px;
+      justify-content: center;
+      align-items: center;
+    }
+    .contactoMain
+      .contactoContainer
+      .redesContacto
+      .redesLinkImgContainer
+      a
+      .redesLinkImgInsta {
+      width: 250px;
+      height: auto;
+    }
+    .contactoMain
+      .contactoContainer
+      .redesContacto
+      .redesLinkImgContainer
+      a
+      .redesLinkImgFace {
+      width: 250px;
+      height: auto;
+    }
+  
+    .appMain .appContent .appHero .carouselGallery {
+      width: 80%;
+    }
+    .appMain .appContent .appHero .formularioVoluntario .formularioContainer {
+      width: 70%;
+    }
+  
+    .nosotrosMain
+      .nosotrosContainer
+      .nosotrosContainerHistoria
+      .nosotrosMobile
+      .nosotrosTitleParaph
+      img {
+      width: 350px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .contactoMain .contactoContainer .redesContacto .redesLinkImgContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  
+      .appAlert .appAlertContainer .infoText:nth-child(1) {
+        display: none;
+      }
+  
+      .containerCarruselOpiniones {
+        width: 100%;
+      }
+  
+      .donarContainer .Container section .row .cardContainerDonar .card {
+        width: 450px;
+        height: auto;
+      }
+      .donarContainer .Container .donarQr .qrPasos .pasosQrImg {
+        width: 500px;
+      }
+    }
+  
+    @media (max-width: 500px) {
+      .nosotrosContenedor .noticia{
+        width: 80%;
+      }
+      .nosotrosContenedor .noticia .izquierda{
+        width: 100%;
+          height: auto;
+          object-fit: cover;
+          border-radius: 10px;
+          margin-left: 13px;
+      }
+      .appMain .appContent .appHero .formVoluntario {
+        width: 100%;
+      }
+      .appMain .appContent .appHero .formVoluntario form {
+        max-width: 350px;
+      }
+      .footer .containerFooter {
+        width: 100%;
+      }
+      .footer .containerFooter .row {
+        width: 320px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .footer .containerFooter .row .sectionsFooter {
+        width: 100%;
+      }
+      .footer .containerFooter .row .sectionsFooter {
+        width: 100%;
+      }
+      .carrusel {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin: 0px;
+      }
+  
+      .carouselGallery {
+        width: 350px;
+      }
+      .containerCarruselOpiniones {
+        width: 100%;
+        max-width: 450px;
+      }
+  
+      .containerCarruselOpiniones .row .carousel .carousel-inner {
+        width: 200px;
+      }
+  
+      .appAlert .appAlertContainer .infoText:nth-child(1) {
+        display: none;
+      }
+  
+      .row {
+        width: 100%;
+      }
+  
+      .tituloGaleria div .gridContainerGaleria {
+        width: 100%;
+       
+        flex-direction: column;
+      }
+  
+      .requirementsList > ul > li {
+        font-size: 14px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+      }
+  
+      .nosotrosContainer {
+        width: 100%;
+      }
+  
+      .redesContacto {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+      .redesTitleParaph > p {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .contactoMobile {
+        font-size: 24px;
+        margin-bottom: 0;
+      }
+  
+      .contactoMain
+        .contactoContainer
+        .redesContacto
+        .redesLinkImgContainer
+        a
+        .redesLinkImgFace {
+        width: 350px;
+        height: auto;
+      }
+      .contactoMain
+        .contactoContainer
+        .redesContacto
+        .redesLinkImgContainer
+        a
+        .redesLinkImgInsta {
+        width: 350px;
+        height: auto;
+      }
+  
+      .cardContainer {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+  
+      #subTitleHidden {
+        display: none;
+      }
+  
+      .nosotrosTitle {
+        font-size: 22px;
+      }
+      .nosotrosMobile {
+        display: flex;
+        flex-direction: column;
+      }
+  
+      .formContacto {
+        max-width: 100%;
+        width: 70%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+      }
+  
+      .contactoMain .contactoContainer .formContacto {
+        width: 100%;
+      }
+      .contactoMain .contactoContainer .formContacto form {
+        width: 80%;
+        height: auto;
+      }
+  
+      .contactoMain .contactoContainer .contactoMaps .mapsContainer {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      .contactoMain .contactoContainer .contactoMaps .mapsContainer .mapa iframe {
+        width: 300px;
+        height: 300px;
+      }
+  
+      .contactoMain
+        .contactoContainer
+        .redesContacto
+        .redesLinkImgContainer
+        a
+        .redesLinkImgFace {
+        width: 200px;
+        height: 200px;
+      }
+      .contactoMain
+        .contactoContainer
+        .redesContacto
+        .redesLinkImgContainer
+        a
+        .redesLinkImgInsta {
+        width: 200px;
+        height: 200px;
+      }
+  
+      .contactoMain {
+        width: 100%;
+        height: auto;
+      }
+      .appMain .appContent .appHero .formularioVoluntario .formularioContainer {
+        width: 85%;
+      }
+      .appMain .appContent .appHero .carouselGallery {
+        width: 85%;
+      }
+      .containerCarruselOpiniones {
+        width: 100%;
+        max-width: 370px;
+      }
+      .tituloGaleria div .gridContainerGaleria {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+  
+      .tituloGaleria div .gridContainerGaleria .galeriaImg {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .tituloGaleria div .gridContainerGaleria.galeriaImg:hover {
+        transform: scale(0.8, 0.8);
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+      }
+  
+      .nosotrosMobile .nosotrosImg3 > img {
+        width: 250px;
+        margin-top: 4px;
+  
+        margin-top: 5px;
+      }
+      .donarContainer .Container section .row .cardContainerDonar .card {
+        width: 380px;
+        height: auto;
+      }
+      .donarContainer .Container .donarQr .qrPasos .pasosQrImg {
+        width: 380px;
+      }
+      .donarContainer .Container .donarQr .qrMercadoPago img {
+        width: 350px;
+      }
+      .donarContainer .Container section .row .cardContainerDonar {
+        margin-bottom: 1rem;
+      }
+      .containerCarruselOpiniones .carousel .carousel-control i {
+        font-size: 20px;
+      }
+    }
+  
+    @media (max-width: 380px) {
+     .containerCarruselOpiniones{
+      display: none;
+     }
+      .footer .containerFooter {
+        width: 100%;
+      }
+      .footer .containerFooter .row .sectionsFooter {
+        width: 300px;
+      }
+  
+      .appAlert .appAlertContainer .infoText:nth-child(2) {
+        display: none;
+      }
+  
+      .appMain .appContent .appHero .formularioVoluntario .formularioContainer {
+        width: 85%;
+      }
+      .carouselGallery {
+        max-width: 320px;
+        height: 400px;
+        width: 250px;
+      }
+  
+      .tituloGaleria div .gridContainerGaleria {
+        max-width: 320px;
+        width: 100%;
+      }
+  
+      .tituloGaleria div .gridContainerGaleria .galeriaImg {
+        width: 200px;
+        height: 200px;
+      }
+  
+      .tituloGaleria div .gridContainerGaleria .galeriaImg:hover {
+        transform: none;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+      }
+      .title {
+        font-size: 10px;
+      }
+      .sumateTitle > h2 {
+        font-size: 17px;
+      }
+      .sumateParaph {
+        font-size: 13px;
+      }
+  
+      .nosotrosMobile .nosotrosImg3 > img {
+        width: 250px;
+        margin-top: 4px;
+        height: auto;
+        margin-top: 5px;
+      }
+  
+      .nosotrosContainer {
+        width: 100%;
+      }
+  
+      .requirementsTitle > h2 {
+        font-size: 21px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .requirementsList > ul > li {
+        font-size: 16px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+      .nosotrosTitle {
+        font-size: 16px;
+      }
+      .nosotrosTitleParaph2 > h3 {
+        font-size: 16px;
+      }
+      .nosotrosTitleParaph2 > p {
+        font-size: 13px;
+      }
+      .contactoMobileTitle {
+        font-size: 19px;
+      }
+  
+      .nosotrosMain
+        .nosotrosContainer
+        .nosotrosContainerHistoria
+        .nosotrosMobile
+        .nosotrosTitleParaph
+        img {
+        width: 300px;
+        height: auto;
+      }
+      .containerCarruselOpiniones {
+        width: 100%;
+      }
+      .containerCarruselOpiniones
+        .row
+        .carousel
+        .carousel-inner
+        .carousel-item
+        .testimonial {
+        width: 300px;
+      }
+    }
+  
+    .contactoMain .contactoContainer .formContacto form {
+      width: 100%;
+    }
+    .donarContainer .Container section .row {
+      width: 100%;
+    }
+    .donarContainer .Container section .row .cardContainerDonar .card {
+      width: 300px;
+    }
+    .donarContainer .Container .donarQr .qrPasos .pasosQrImg {
+      width: 300px;
+    }
+    .donarContainer .Container .donarQr .qrMercadoPago img {
+      width: 300px;
+    }
+    .donarContainer .Container .donarQr .qrMercadoPago h2 {
+      font-size: 18px;
+    }
+    .donarContainer .Container .donarQr .donarQrContainer .donarQrSubTitle {
+      font-size: 18px;
+    }
+    .donarContainer .Container .donarQr .donarQrContainer .donarQrTitle {
+      font-size: 18px;
+    }
+    .donarContainer .Container div .proyectosTitle {
+      font-size: 19px;
+    }
+    .donarContainer .Container div h2 {
+      font-size: 18px;
+    }
+    .appMain .appContent .appHero .appText .heroContentLema {
+      font-size: 22px;
+    }
+    .requisitos h2 {
+      font-size: 22px;
+    }
+    .requisitos ul li {
+      font-size: 18px;
+    }
+    .tituloGaleria h2 {
+      font-size: 22px;
+    }
+    .contactoMain
+      .contactoContainer
+      .redesContacto
+      .redesContactoContainer
+      .redesTitleParaph {
+      margin-bottom: 10px;
+    }
+  }
+
+/*  fin de media querys */
