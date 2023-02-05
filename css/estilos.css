@@ -15,7 +15,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto Slab", serif;
-  border: 1px solid blue;
 }
 /* fin de reset */
 
@@ -1553,21 +1552,21 @@ form .boton:hover {
   }
   /* fin del index */
   /* nosotros */
-  .contenedorObjetivos{
+  .contenedorObjetivos {
     padding-bottom: 150px;
   }
   /* fin de nosotros */
   /* contacto*/
   /* fin de contacto*/
   /* donar*/
-  .qrPasos img{
+  .qrPasos img {
     display: flex;
-    width:500px;
+    width: 500px;
     justify-content: center;
     align-items: center;
   }
-  .titleConetenedor{
-    height: 30vh
+  .titleConetenedor {
+    height: 30vh;
   }
   /* fin de donar*/
 }
@@ -1680,18 +1679,17 @@ form .boton:hover {
   }
   /* fin del index */
   /* nosotros */
-  .imgNosotrosFixed{
+  .imgNosotrosFixed {
     height: 30vh;
   }
   /* fin de nosotros */
   /* contacto*/
-  .containerTitleContacto{
+  .containerTitleContacto {
     width: 90%;
     border-radius: 30px 30px 0px 0px;
     font-size: 20px;
-   
   }
-  .containerTitleContacto h2{
+  .containerTitleContacto h2 {
     font-size: 20px;
   }
   .mapsContainer h2 {
@@ -1704,13 +1702,13 @@ form .boton:hover {
   }
   /* fin de contacto*/
   /* donar*/
-  .cajaNaranjaDonacion{
+  .cajaNaranjaDonacion {
     width: 80%;
   }
-  .titleConetenedor .cajaNaranjaDonacion h2{
+  .titleConetenedor .cajaNaranjaDonacion h2 {
     font-size: 20px;
   }
-  .titleConetenedor .cajaNaranjaDonacion h4{
+  .titleConetenedor .cajaNaranjaDonacion h4 {
     font-size: 15px;
   }
 
@@ -1837,17 +1835,17 @@ form .boton:hover {
     font-size: 16px;
     width: 70%;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     display: flex;
   }
-  .prueba2{
-    width:600px;
+  .prueba2 {
+    width: 600px;
     padding-bottom: 0px;
     margin-bottom: 0px;
     min-width: 400px;
     height: 300px;
   }
-  .containerP{
+  .containerP {
     margin-top: 0px;
     padding-top: 0px;
   }
@@ -1864,30 +1862,27 @@ form .boton:hover {
   .redesLinkImgContainer {
     display: flex;
     flex-direction: column;
-
   }
-  .redesLinkImgContainer  img {
+  .redesLinkImgContainer img {
     width: 300px;
     height: auto;
     margin-bottom: 10px;
   }
   /* fin de contacto*/
   /* donar*/
-  .linksContainer .contenerdor2{
+  .linksContainer .contenerdor2 {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
   }
 
-  .cardslinks{
+  .cardslinks {
     width: 325px;
   }
   /* fin de donar*/
 }
 @media (max-width: 550px) {
-
   /* index */
   .formVoluntario {
     width: 400px;
@@ -1923,11 +1918,11 @@ form .boton:hover {
   .Entidades h2 {
     font-size: 15px;
   }
-  
+
   /* fin del index */
   /* nosotros */
-  .prueba2{
-    width:600px;
+  .prueba2 {
+    width: 600px;
     padding-bottom: 0px;
     margin-bottom: 0px;
     min-width: 400px;
@@ -1939,30 +1934,29 @@ form .boton:hover {
   .member-role {
     font-size: 15px;
   }
-  .container{
+  .container {
     width: 340px;
   }
-.prueba2{
-  max-width: 240px;
-  width: 200px;
-  height: 200px;
-}
+  .prueba2 {
+    max-width: 240px;
+    width: 200px;
+    height: 200px;
+  }
 
-.nuestroEquipo .carousel {
-  width: 200px;
-}
+  .nuestroEquipo .carousel {
+    width: 200px;
+  }
   /* fin de nosotros */
   /* contacto*/
   .formContacto form {
     width: 330px;
   }
-  .containerTitleContacto{
+  .containerTitleContacto {
     width: 90%;
     border-radius: 30px 30px 0px 0px;
     font-size: 20px;
-   
   }
-  .containerTitleContacto h2{
+  .containerTitleContacto h2 {
     font-size: 20px;
   }
   .mapsContainer h2 {
@@ -1975,27 +1969,27 @@ form .boton:hover {
   }
   /* fin de contacto*/
   /* donar*/
-  .qrPasos img{
+  .qrPasos img {
     display: flex;
-    width:300px;
+    width: 300px;
     justify-content: center;
     align-items: center;
   }
-  .qrPasos h3{
+  .qrPasos h3 {
     font-size: 15px;
   }
-  .qrPasos  .mercadoQr{
+  .qrPasos .mercadoQr {
     width: 250px;
   }
-  .cajaNaranjaDonacion{
+  .cajaNaranjaDonacion {
     margin-top: 0px;
   }
   /* fin de donar*/
- 
 }
 
 @media (max-width: 550px) {
-  .prueba2{display: none;
+  .prueba2 {
+    display: none;
   }
 }
 
