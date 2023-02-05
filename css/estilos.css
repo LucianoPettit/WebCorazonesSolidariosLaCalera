@@ -1099,7 +1099,7 @@ form .boton:hover {
   background: linear-gradient(rgba(255, 255, 255, 0.392), rgba(0, 0, 0, 0.733)),
     url("../img/contacto.jpg");
   width: 100%;
-  height: 40vh;
+  height: 70vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: center;
@@ -1441,6 +1441,9 @@ form .boton:hover {
   }
   /* fin de nosotros */
   /* contacto*/
+  .imagenContacto{
+    height: 50vh;
+  }
   /* fin de contacto*/
   /* donar*/
   /* fin de donar*/
@@ -1867,6 +1870,9 @@ form .boton:hover {
     width: 300px;
     height: auto;
     margin-bottom: 10px;
+  }
+  .imagenContacto{
+    height: 40vh;
   }
   /* fin de contacto*/
   /* donar*/
