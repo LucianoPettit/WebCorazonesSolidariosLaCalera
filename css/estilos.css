@@ -1180,17 +1180,17 @@ form .boton:hover {
   background-image: center;
   background-attachment: fixed;
 }
-.cajaNarnjaDonacion {
+.cajaNaranjaDonacion {
   background-color: #e55224;
   padding: 15px;
   width: 60%;
   margin-top: 140px;
   border-radius: 30px;
 }
-.cajaNarnjaDonacion h1 {
+.cajaNaranjaDonacion h2 {
   font-size: 30px;
 }
-.cajaNarnjaDonacion h4 {
+.cajaNaranjaDonacion h4 {
   font-size: 20px;
 }
 .donarContainer {
@@ -1224,7 +1224,7 @@ form .boton:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 900px;
+  width: 70%;
 }
 
 .qrPasos {
@@ -1560,6 +1560,15 @@ form .boton:hover {
   /* contacto*/
   /* fin de contacto*/
   /* donar*/
+  .qrPasos img{
+    display: flex;
+    width:500px;
+    justify-content: center;
+    align-items: center;
+  }
+  .titleConetenedor{
+    height: 30vh
+  }
   /* fin de donar*/
 }
 @media (max-width: 800px) {
@@ -1695,6 +1704,16 @@ form .boton:hover {
   }
   /* fin de contacto*/
   /* donar*/
+  .cajaNaranjaDonacion{
+    width: 80%;
+  }
+  .titleConetenedor .cajaNaranjaDonacion h2{
+    font-size: 20px;
+  }
+  .titleConetenedor .cajaNaranjaDonacion h4{
+    font-size: 15px;
+  }
+
   /* fin de donar*/
 }
 @media (max-width: 640px) {
@@ -1854,6 +1873,17 @@ form .boton:hover {
   }
   /* fin de contacto*/
   /* donar*/
+  .linksContainer .contenerdor2{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .cardslinks{
+    width: 325px;
+  }
   /* fin de donar*/
 }
 @media (max-width: 550px) {
@@ -1945,7 +1975,23 @@ form .boton:hover {
   }
   /* fin de contacto*/
   /* donar*/
+  .qrPasos img{
+    display: flex;
+    width:300px;
+    justify-content: center;
+    align-items: center;
+  }
+  .qrPasos h3{
+    font-size: 15px;
+  }
+  .qrPasos  .mercadoQr{
+    width: 250px;
+  }
+  .cajaNaranjaDonacion{
+    margin-top: 0px;
+  }
   /* fin de donar*/
+ 
 }
 
 @media (max-width: 550px) {
