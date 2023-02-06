@@ -117,10 +117,12 @@ body {
   justify-content: flex-start;
   align-items: center;
   text-align: start;
+  
 }
 .headerTitle h2 {
-  font-size: 16px;
+  font-size: 12px;
   width: 100%;
+  font-weight: 300;
 }
 
 /* fin logo - texto al lado del logo- */
@@ -257,6 +259,9 @@ body {
   color: black;
 }
 
+.title p span {
+ color: #e55224;
+}
 .carousel-item img {
   width: 600px;
 }
@@ -298,7 +303,7 @@ body {
 .card {
   background: #222;
   cursor: default;
-  height: 400px;
+  height: 500px;
   transform-style: preserve-3d;
   transition: transform 0.4s ease 0s;
   width: 100%;
@@ -335,6 +340,7 @@ body {
   height: 35%;
   margin: -15px;
   transform: scale(2);
+  margin-top: 20px;
 }
 .card .back {
   transform: rotateY(180deg);
