@@ -15,6 +15,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto Slab", serif;
+  border: 1px solid blue;
 }
 /* fin de reset */
 
@@ -912,12 +913,37 @@ form .boton:hover {
   background-color: #e55224;
   padding-top: 20px;
   color: white;
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   border-radius: 190px 190px 0px 0px;
+}
+
+.porqueContainer h2 {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.porqueContainer ol li  {
+  margin: 10px;
+  font-size: 15px;
+}
+.textPorqueContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 70%;
+}
+.objetivosResumido{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 70%;
 }
 .contenedorObjetivos {
   display: flex;
@@ -935,6 +961,7 @@ form .boton:hover {
   justify-content: flex-start;
   margin-top: 10px;
   height: 300px;
+  margin-bottom: 60px;
 }
 
 .objetivos h2 {
@@ -1028,6 +1055,14 @@ form .boton:hover {
 
 .containerP {
   width: 100%;
+  max-width: 1920px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.containerP div {
+  width: 65%;
   max-width: 1920px;
   display: flex;
   justify-content: center;
@@ -1299,7 +1334,7 @@ form .boton:hover {
 /* footer */
 .footer {
   background-color: #24262b;
-  padding: 30px 0;
+  padding: 50px 0px 0px 0px;
 }
 .containerFooter {
   max-width: 1170px;
@@ -1308,7 +1343,7 @@ form .boton:hover {
 }
 .row {
   display: flex;
-  flex: wrap;
+ text-align: center;
 }
 .sectionsFooter {
   width: 25%;
@@ -1325,6 +1360,7 @@ form .boton:hover {
 
 .sectionsFooter ul {
   list-style: none;
+  
 }
 
 .sectionsFooter ul li {
@@ -1342,6 +1378,9 @@ form .boton:hover {
 .sectionsFooter {
   width: 25%;
   padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .contacto {
@@ -1368,13 +1407,16 @@ form .boton:hover {
   width: 25%;
   padding: 0 15px;
 }
+.sectionsFooter  ul {
+  padding-right: 30px;
+}
 .sectionsFooter h4 {
   font-size: 18px;
   color: white;
   text-transform: capitalize;
   margin-bottom: 35px;
   font-weight: 500;
-  position: relative;
+ 
 }
 .sectionsFooter li {
   margin-bottom: 14px;
@@ -1398,6 +1440,9 @@ form .boton:hover {
 }
 .socialLinks {
   display: flex;
+  text-align: center;
+  padding-left:40px ;
+  align-items: center;
 }
 .socialLinks a {
   color: black;
@@ -1419,6 +1464,7 @@ form .boton:hover {
   font-size: 20px;
   align-self: center;
 }
+
 
 /*  fin del footer */
 
@@ -1456,6 +1502,22 @@ form .boton:hover {
   /* fin de contacto*/
   /* donar*/
   /* fin de donar*/
+}
+
+@media (max-width: 1300px) {
+  .porqueContainer{
+    width: 90%;
+  }
+  .porqueContainer h2 {
+    font-size: 20px;
+  }
+  .porqueContainer ol li {
+    font-size: 15px;
+  }
+  .contenedorObjetivos{
+    margin-bottom: 100px;
+  }
+
 }
 
 @media (max-width: 1100px) {
@@ -1567,8 +1629,35 @@ form .boton:hover {
   .contenedorObjetivos {
     padding-bottom: 150px;
   }
+  .textPorqueContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+  }
+  .textPorqueContainer h2 {
+    width: 60%;
+    font-size:15px;
+  }
+  .textPorqueContainer ol li {
+    width: ;
+    font-size:13px;
+  }
   /* fin de nosotros */
   /* contacto*/
+  .containerP div {
+    width: 70%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .equipoTextContainer h2{
+    font-size: 27px;
+  }
   /* fin de contacto*/
   /* donar*/
   .qrPasos img {
@@ -1582,6 +1671,13 @@ form .boton:hover {
   }
   /* fin de donar*/
 }
+@media (max-width: 900px) {
+  .navBackgroudColor{
+   margin-bottom: 20px;
+   padding-bottom: 0px;
+  }
+}
+
 @media (max-width: 800px) {
   /* index */
   .carouselContainer {
@@ -1895,7 +1991,16 @@ form .boton:hover {
   .cardslinks {
     width: 325px;
   }
+  
   /* fin de donar*/
+  /* footer */
+  .sectionsFooter .socialLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  /* footer */
 }
 @media (max-width: 550px) {
   /* index */
@@ -1999,13 +2104,21 @@ form .boton:hover {
   .cajaNaranjaDonacion {
     margin-top: 0px;
   }
+  .contenedorObjetivos{
+    margin-top: 100px;
+  }
+  .objetivos {
+    margin-top:100px;
+    margin-bottom: 0px;
+  }
   /* fin de donar*/
 }
 
-@media (max-width: 550px) {
+@media (max-width: 400px) {
   .prueba2 {
-    display: none;
+ display: none
   }
+
 }
 
 /* 
