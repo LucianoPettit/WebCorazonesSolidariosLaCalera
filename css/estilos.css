@@ -840,6 +840,7 @@ form .boton:hover {
 .member img {
   width: 168px;
   height: 168px;
+  object-fit: cover;
   border-radius: 100px;
 }
 .member-name {
