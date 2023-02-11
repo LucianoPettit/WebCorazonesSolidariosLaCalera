@@ -308,11 +308,7 @@ width: 100px;
   margin-top: 10px;
 }
 
-@media (max-width: 580px) {
-  body {
-    flex-direction: column;
-  }
-}
+
 
 /*  find de slider */
 /* cards proyectos */
@@ -1726,7 +1722,7 @@ form .boton:hover {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 830px) {
   /* index */
   .carouselContainer {
     display: flex;
@@ -1764,6 +1760,9 @@ form .boton:hover {
     margin-left: 0px;
     margin-right: 0px;
     width: 100%;
+  }
+  .slider{
+    flex-direction: column;
   }
   /* fin del index */
   /* nosotros */
