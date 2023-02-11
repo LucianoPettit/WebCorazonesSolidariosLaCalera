@@ -268,6 +268,53 @@ body {
 }
 /* fin de carousel + info */
 
+/* slider */
+.slider{
+  color:#e55224;
+  background-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border-top: 6px solid #e55224;
+}
+.slider img{
+width: 100px;
+}
+.counter-container {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 50px;
+}
+.counter-container div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+  height: 200px;
+  margin-bottom:0px;
+  
+}
+.slider .imgbolson{
+  width: 110px;
+}
+.counter {
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+@media (max-width: 580px) {
+  body {
+    flex-direction: column;
+  }
+}
+
+/*  find de slider */
 /* cards proyectos */
 .h1Proyectos {
   background: #e55224;
