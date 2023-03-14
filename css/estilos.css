@@ -11,7 +11,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
-
 }
 /* fin de reset */
 
@@ -461,7 +460,7 @@ width: 100px;
     transform: rotateY(0deg);
   }
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1278px) {
   .cardBox {
     margin-left: 2.8%;
     margin-top: 3%;
@@ -475,19 +474,36 @@ width: 100px;
       width: 46%;
     }
     .card {
-      height: 285px;
+      height: 450px;
     }
     .cardBox:last-child {
       margin-bottom: 3%;
     }
   }
 
-  @media screen and (max-width: 550px) {
+  
+  @media screen and (max-width: 665px) {
+    .card {
+      height: 500px;
+    }
+    .back h3 {
+      font-size: 20px;
+
+  }
+  .back p {
+    font-size:1px;
+}
+
+  }
+  @media screen and (max-width: 642px) {
     .cardBox {
       width: 94.5%;
     }
     .card {
-      height: 260px;
+      height: 350px;
+    }
+    .back h3{
+    padding-top: 40px;
     }
   }
   /* fin de cards proyectos -index*/
@@ -1039,7 +1055,7 @@ form .boton:hover {
   justify-content: flex-start;
   margin-top: 10px;
   height: 300px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .objetivos h2 {
@@ -1107,7 +1123,7 @@ form .boton:hover {
   justify-content: center;
   display: flex;
   margin-top: 40px;
-  font-size: 50px;
+  font-size: 35px;
   color: white;
   font-weight: bold; 
 }
@@ -1165,7 +1181,7 @@ form .boton:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  flex-direction: column;
+  flex-direction: column;ontactoMaps
   margin-top: 40px;
 }
 .containerTitleContacto {
@@ -1208,7 +1224,7 @@ form .boton:hover {
 }
 .mapsContainer p {
   font-size: 24px;
-  max-width: 50%;
+  max-width: 65%;
 }
 .mapaSection .mapa iframe {
   width: 800px;
@@ -1372,11 +1388,21 @@ form .boton:hover {
   width: 70%;
 }
 
+.alias{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
 .qrPasos {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .qrPasos .mercadoQr {
   width: auto;
@@ -1390,6 +1416,8 @@ form .boton:hover {
   padding: 20px;
   border-radius: 20px;
   font-weight: bold;
+  width: 70%;
+  font-size: 22px;
 }
 
 .linksContenedor {
@@ -1611,7 +1639,7 @@ form .boton:hover {
   /* fin de donar*/
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1340px) {
   .porqueContainer{
     width: 90%;
   }
@@ -1748,7 +1776,7 @@ form .boton:hover {
     align-items: center;
     text-align: center;
     justify-content: center;
-    width: auto;
+    width: 80%
   }
   .textPorqueContainer h2 {
     width: 60%;
@@ -1771,6 +1799,10 @@ form .boton:hover {
   .equipoTextContainer h2{
     font-size: 27px;
   }
+  .mapsContainer {
+    width: 100%;
+   
+  }
   /* fin de contacto*/
   /* donar*/
   .qrPasos img {
@@ -1789,7 +1821,29 @@ form .boton:hover {
    margin-bottom: 20px;
    padding-bottom: 0px;
   }
+  .mapsContainer p {
+    font-size: 19px;
+    width: 90%;
+  }
+  .containerTitleContacto{
+    
+    width: 80%;
+  }
 
+  .mapsContainer h2{
+    font-size: 24px;
+  }
+
+  .formContacto p {
+    width: 80%;
+  }
+  .contactoMaps{
+    margin-top: 20px;
+  }
+
+  .alias{
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 830px) {
@@ -1821,9 +1875,10 @@ form .boton:hover {
     font-size: 14px;
   }
   .back h3 {
-    font-size: 14px;
+    font-size: 20px;
   }
   .back p {
+    font-size: 16px;
     margin-bottom: 15px;
   }
   .containerFooter {
@@ -1870,7 +1925,7 @@ form .boton:hover {
   .contenedorObjetivos {
     justify-content: center;
     align-items: center;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
     flex-direction: column;
     display: flex;
   }
@@ -1886,17 +1941,24 @@ form .boton:hover {
 }
 /* fin de nosotros */
 /* contacto*/
+.mapaSection .mapa iframe {
+  width: 600px;
+  margin-top: 40px;
+  height: 30vh;
+}
 /* fin de contacto*/
 /* donar*/
 /* fin de donar*/
-
-@media (max-width: 720px) {
-  /* index */
+@media (max-width: 960px) {
   .entidadesContainer {
     display: flex;
     flex-direction: column;
   }
-  .card {
+  .car
+}
+@media (max-width: 720px) {
+  /* index */
+d {
     height: 350px;
   }
   .prueba1 {
@@ -2025,7 +2087,7 @@ form .boton:hover {
     margin-top: 10px;
   }
   .card {
-    height: 250px;
+    height:340px;
   }
   .infoText:nth-child(1) {
     display: none;
@@ -2075,11 +2137,17 @@ form .boton:hover {
     padding-top: 0px;
   }
 
+  .textPorqueContainer h2 {
+    font-size: 19px;
+    font-weight: bold;
+    width: 90%;
+  }
   /* fin de nosotros */
   /* contacto*/
-  .mapa iframe {
-    width: 90%;
-    height: 50vh;
+  .mapaSection .mapa iframe {
+    width: 400px;
+    margin-top: 10px;
+    height: 300px;
   }
   .formContacto form {
     width: 400px;
@@ -2119,6 +2187,29 @@ form .boton:hover {
   }
   /* footer */
 }
+@media (max-width: 580px) {
+
+  .card {
+    height: 330px;
+  }
+  .back h3{
+    padding-top: 0px;
+    font-size: 19px;
+    }
+  .back p{
+    padding-top: 0px;
+    font-size: 13px;
+    }
+
+
+    .cardslinks h3 {
+      font-size: 15px;
+    }
+    .cardslinks p {
+      font-size: 12px;
+    }
+}
+
 @media (max-width: 550px) {
   /* index */
   .formVoluntario {
@@ -2143,9 +2234,7 @@ form .boton:hover {
   .formVoluntario {
     width: 300px;
   }
-  .card {
-    height: 300px;
-  }
+  
   #subTitleHidden {
     display: none;
   }
@@ -2182,6 +2271,11 @@ form .boton:hover {
 
   .nuestroEquipo .carousel {
     width: 200px;
+  }
+  .textPorqueContainer h2 {
+    font-size: 17px;
+    font-weight: bold;
+    width: 90%;
   }
   /* fin de nosotros */
   /* contacto*/
@@ -2222,15 +2316,21 @@ form .boton:hover {
     margin-top: 0px;
   }
   .contenedorObjetivos{
-    margin-top: 100px;
+    margin-top: 50px;
   }
   .objetivos {
-    margin-top:100px;
+    margin-top:50px;
     margin-bottom: 0px;
   }
   /* fin de donar*/
 }
-
+@media (max-width: 450px){
+  .mapaSection .mapa iframe {
+    width: 340px;
+    margin-top: 10px;
+    height: 300px;
+  }
+}
 @media (max-width: 400px) {
   .prueba2 {
  display: none
