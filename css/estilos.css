@@ -2330,6 +2330,13 @@ d {
     margin-top: 10px;
     height: 300px;
   }
+  .heroContent {
+    height: 50vh;
+    
+  }
+  .slider {
+    padding-top: 80px;
+  }
 }
 @media (max-width: 400px) {
   .prueba2 {
