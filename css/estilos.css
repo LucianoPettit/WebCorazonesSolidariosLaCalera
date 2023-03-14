@@ -1,11 +1,7 @@
 /* generales */
 
 /* imports */
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,400;0,700;1,800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;1,700&display=swap");
 
 /* fin de imports */
 
@@ -14,7 +10,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto Slab", serif;
+  font-family: "Raleway", sans-serif;
 
 }
 /* fin de reset */
@@ -44,6 +40,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 12px 14px;
+  font-weight: bold;
 }
 
 .appAlertContainer {
@@ -62,6 +59,8 @@ body {
   font-family: "Roboto Slab", serif;
   font-weight: 500;
   color: white;
+  font-weight: bold;
+
 }
 
 .infoText p {
@@ -118,6 +117,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   text-align: start;
+  font-weight: bold;
   
 }
 .headerTitle h2 {
@@ -139,6 +139,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-weight: bold;
 }
 
 .nav-link {
@@ -147,6 +148,7 @@ body {
   padding: 10px;
   background-color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .nav-link:hover {
@@ -180,6 +182,7 @@ body {
 .textCorazonesHero h2 {
   border-bottom: 1px solid white;
   font-size: 35px;
+  font-weight: bold;
 }
 .textCorazonesHero p {
   font-size: 17px;
@@ -187,6 +190,7 @@ body {
 }
 .textCorazonesHero .lema {
   font-size: 30px;
+  font-weight: bold;
 }
 .textCorazonesHero {
   gap: 5px;
@@ -243,6 +247,7 @@ body {
 
 .title h2 span {
   border-bottom: 1px solid black;
+  font-weight: bold;
 }
 .title div {
   display: flex;
@@ -328,6 +333,7 @@ width: 100px;
   margin: 0 0 5% 0;
   padding: 0.5em;
   margin: 0 0 5% 0;
+  font-weight: bold;
 }
 
 .cardBox {
@@ -519,6 +525,7 @@ width: 100px;
   margin-bottom: 10px;
   border-radius: 10px;
   padding: 5px;
+  font-weight: bold;
 }
 /* fin de formulario y requisitos  -index */
 /* formulario voluntario-index */
@@ -547,9 +554,10 @@ form h2 {
   text-align: center;
   margin: 0;
   color: white;
-  font-size: 25px;
-  font-family: "Roboto Slab", serif;
+  font-size: 22px;
+
   margin-bottom: 20px;
+  font-weight: bold;
 }
 form input {
   width: 100%;
@@ -632,6 +640,7 @@ form .boton:hover {
 .titleLogo h2 {
   font-size: 50px;
   padding: 10px;
+  font-weight: bold;
   border-radius: 20px;
 }
 .titleLogo h2 span {
@@ -686,6 +695,7 @@ form .boton:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: bold;
 }
 .entidadesContainer {
   display: flex;
@@ -710,6 +720,7 @@ form .boton:hover {
   transform: scale(1.1);
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2s);
 }
+
 /* fin de  entidades -index */
 
 /*OPINIONES CARRUSEL*/
@@ -721,7 +732,6 @@ form .boton:hover {
 .containerOpiniones h2 {
   text-align: center;
   text-transform: uppercase;
-  font-family: "Noto Sans", sans-serif;
   font-weight: bold;
   position: relative;
   color: black;
@@ -740,6 +750,7 @@ form .boton:hover {
   right: 0;
   bottom: -10px;
   opacity: 0.8;
+  font-weight: bold;
 }
 .col-center {
   margin: 0 auto;
@@ -779,6 +790,7 @@ form .boton:hover {
 .carousel .overview b {
   text-transform: uppercase;
   color: #e55224;
+  font-weight: bold;
 }
 .carousel .carousel-control {
   width: 40px;
@@ -860,6 +872,7 @@ form .boton:hover {
   color: #e55224;
   font-weight: 500;
   text-align: center;
+ font-weight: bold;
   font-size: 64px;
 }
 
@@ -870,7 +883,6 @@ form .boton:hover {
 
 .members {
   display: flex;
-
   width: 100%;
 }
 
@@ -916,17 +928,20 @@ form .boton:hover {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .vocalesTitulares {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .vocalesSuplentes {
   display: flex;
   justify-content: center;
+  font-weight: bold;
 }
 
 .comisionCuentas {
@@ -934,6 +949,7 @@ form .boton:hover {
   justify-content: center;
   border-bottom: 3px dotted black;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 /* find de members - nosotros */
@@ -984,6 +1000,7 @@ form .boton:hover {
 }
 .textPorqueContainer h2 {
   font-size: 22px;
+  font-weight: bold;
 }
 .objetivosResumido{
   display: flex;
@@ -999,6 +1016,7 @@ form .boton:hover {
 }
 .objetivosResumido span {
   border-bottom: 1px solid white;
+  font-weight: bold;
 }
 .objetivosResumido ol li {
   font-size: 15px;
@@ -1026,6 +1044,7 @@ form .boton:hover {
 
 .objetivos h2 {
   border-bottom: 1px solid black;
+  font-weight: bold;
 }
 
 .objetivos p {
@@ -1090,6 +1109,7 @@ form .boton:hover {
   margin-top: 40px;
   font-size: 50px;
   color: white;
+  font-weight: bold; 
 }
 .equipoTextContainer h2 span {
   border-bottom: 1px solid;
@@ -1160,6 +1180,7 @@ form .boton:hover {
   color: white;
   padding: 10px;
   border-radius: 80px 80px 0px 0px;
+  font-weight: bold;
 }
 .contactoMaps {
   margin-top: 70px;
@@ -1174,6 +1195,12 @@ form .boton:hover {
 .mapsContainer {
   width: 100%;
   max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
 }
 .mapsContainer h2 {
   margin-bottom: 20px;
@@ -1181,9 +1208,11 @@ form .boton:hover {
 }
 .mapsContainer p {
   font-size: 24px;
+  max-width: 50%;
 }
-.mapa iframe {
-  width: 70%;
+.mapaSection .mapa iframe {
+  width: 800px;
+  margin-top: 40px;
   height: 50vh;
 }
 .formContacto {
@@ -1193,6 +1222,10 @@ form .boton:hover {
   flex-direction: column;
   color: black;
   margin-top: 60px;
+  font-weight: bold;
+}
+.formularioContacto{
+  font-weight: bold;
 }
 
 .imagenContacto {
@@ -1226,6 +1259,10 @@ form .boton:hover {
   padding: 10px;
   border-radius: 20px;
 }
+.imagenContainerContacto div h2{
+  font-weight: bold;
+
+}
 
 .redesContacto {
   width: 100%;
@@ -1257,6 +1294,7 @@ form .boton:hover {
   align-items: center;
   text-align: center;
   border-bottom: 3px solid white;
+  font-weight: bold;
 }
 .redesLinkImgContainer {
   display: flex;
@@ -1268,6 +1306,9 @@ form .boton:hover {
   width: 80%;
   height: 60%;
   border-radius: 40%;
+}
+.acordion h2 {
+  font-weight: bold;
 }
 /* fin de contacto */
 
@@ -1292,6 +1333,7 @@ form .boton:hover {
 }
 .cajaNaranjaDonacion h2 {
   font-size: 30px;
+  font-weight: bold;
 }
 .cajaNaranjaDonacion h4 {
   font-size: 20px;
@@ -1347,6 +1389,7 @@ form .boton:hover {
   margin-top: 50px;
   padding: 20px;
   border-radius: 20px;
+  font-weight: bold;
 }
 
 .linksContenedor {
@@ -1387,6 +1430,9 @@ form .boton:hover {
   margin: 10px;
   background-color: white;
 }
+.cardslinks h3 {
+  font-weight: bold;
+}
 
 /* fin de donar */
 
@@ -1414,7 +1460,7 @@ form .boton:hover {
   color: white;
   text-transform: capitalize;
   margin-bottom: 35px;
-  font-weight: 500;
+  font-weight: bold;
   position: relative;
 }
 
